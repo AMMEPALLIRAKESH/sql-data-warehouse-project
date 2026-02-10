@@ -1,4 +1,9 @@
-IF OBJECT_ID('silver.crm_cust_info' ,'U') IS NOT NULL
+
+/*
+=================================================================
+DDL SCRIPTS : CREATE SILVER TABLE 
+==================================================================
+*/IF OBJECT_ID('silver.crm_cust_info' ,'U') IS NOT NULL
 DROP TABLE silver.crm_cust_info;
 
 CREATE TABLE silver.crm_cust_info(
